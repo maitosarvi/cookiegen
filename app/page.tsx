@@ -1,6 +1,8 @@
 'use client';
 import { useState } from 'react';
 
+export const runtime = "edge";
+
 export default function Home() {
   const [fortune, setFortune] = useState<string>('');
   const [isLoading, setIsLoading] = useState(false);
