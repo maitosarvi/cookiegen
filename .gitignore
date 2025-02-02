@@ -12,6 +12,15 @@ out/
 build/
 dist/
 
+# Data and scripts folders
+/data/
+/scripts/
+/seed/
+/migrations/
+/backup/
+/dumps/
+
+
 # Development
 .env
 .env.local
@@ -32,6 +41,12 @@ yarn-error.log*
 prisma/*.db
 prisma/*.sqlite
 prisma/*.sqlite3
+
+# Generated data
+/generated/
+/output/
+/exports/
+/imports/
 
 # System files
 .DS_Store
